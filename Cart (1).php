@@ -3,9 +3,7 @@ class Cart
 {
     public $id;
     public $productid;
-    public $quantity;
-    public $userid;
-    public $username;
+
 
     public static function getAll($pdo)
     {
