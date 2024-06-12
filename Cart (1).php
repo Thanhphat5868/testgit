@@ -7,6 +7,8 @@ class Cart
     public $userid;
     public $username;
 
+    public $address;
+
     public static function getAll($pdo)
     {
         $sql = "SELECT * FROM cart";
